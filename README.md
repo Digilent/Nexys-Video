@@ -36,5 +36,6 @@ The following are required for use of this demo. For more information on how to 
 
 * Nexys Video
 * Vivado 2020.1 Installation
-* MicroUSB Cable
+* Two MicroUSB Cable
 * Serial Terminal Emulator
+* Nexys Video 12V Power Supply
