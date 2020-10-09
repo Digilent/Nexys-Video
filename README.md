@@ -38,6 +38,3 @@ The following are required for use of this demo. For more information on how to 
 * Vivado 2020.1 Installation
 * MicroUSB Cable
 * Serial Terminal Emulator
-* Monitor with VGA Port
-* VGA Cable
-* USB Mouse
