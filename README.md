@@ -11,7 +11,7 @@ Vivado is used to build the demo's hardware platform, and Vitis is used to progr
 
 To use this demo, the Nexys Video must be connected to a computer over MicroUSB, which must be running a serial terminal such as Tera Term or PuTTY.
 
-The audio demo records a 5 second sample from the microphone input (J7) or line in (J8) and plays it back on the headphone output (J5) or line out (J6).
+The audio demo records a 5 second sample from the microphone input (J6) or line in (J7) and plays it back on the headphone output (J4) or line out (J5).
 Recording and playback are controlled by the user push buttons, as in the table below:
 
 |  Button  | Function              |
