@@ -51,7 +51,7 @@ This demo was moved into this repository during 2020.1 updates. Its history prio
 The following are required for use of this demo. For more information on how to get any hardware or software you may be missing, see the Demo Page, linked above.
 
 * Nexys Video
-* Vivado and Vitis 2021.1 installations with Digilent's board files
+* Vivado and Vitis 2022.1 installations with Digilent's board files
 * Serial Terminal
 * MicroUSB Cables for programming and serial communication
 * HDMI source (likely a computer)
