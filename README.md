@@ -52,7 +52,7 @@ The following are required for use of this demo.
 For more information on how to get any hardware or software you may be missing, see the Demo Page, linked above.
 
 * Nexys Video
-* Vivado and Vitis 2020.1 Installations
+* Vivado and Vitis 2021.1 Installations
 * Serial Terminal Emulator
 * MicroUSB Cables for serial communication and programming
 * Audio sink and source, such as audio cables and a computer, microphone, and/or speakers
