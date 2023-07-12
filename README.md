@@ -8,16 +8,19 @@ This branch contains sources for the Nexys Video OLED Demo.
 
 This project is a Vivado demo using the Nexys Video's LEDs, pushbuttons and OLED Display written in Verilog. When programmed onto the board,  the display will automatically be initialized. When you are done operating the demo, and want to turn your board off, press the CPU Reset Button to turn the display off. LED0 is tied to the status of the OLED display. If the LED0 is on so is the OLED display. The display can be turned on from an off state by pressing the CPU Reset Button again. The OLED Display is controlled by the BTNR, BTNU, BTNC and BTND of the D-Pad Buttons as shown in the table below.
 
-| Button | Function                                                           |
-| ------ | -----------------------------------------------------------------  |
-| BTNC   | With the display on, each pixel on the display can                 | 
-|        | be lit up at once by pressing the center D-Pad button (BTNC).      |
-|        | Press the BTNC to return the display to its original state         |
-| BTNU   | With the display on, you can load pre-defined text onto the        |
-|        | display by pressing the up D-Pad button (BTNU)                     |                          
-| BTNR   | The OLED display can be turned on and off by pressing the right    |
-|        | D-Pad Button (BTNR)                                                |
-| BTND   | To clear the display, press the down D-Pad button (BTND)           |
+| Button     | Function                                                           |
+| ---------- | ------------------------------------------------------------------ |
+| BTNC       | With the display on, each pixel on the display can                 | 
+|            | be lit up at once by pressing the center D-Pad button (BTNC).      |
+|            | Press the BTNC to return the display to its original state         |
+| BTNU       | With the display on, you can load pre-defined text onto the        |
+|            | display by pressing the up D-Pad button (BTNU)                     |                          
+| CPU_RESET  | The OLED display can be turned on and off by pressing the CPU_RESET|
+|  	     | button above the PROG button                                       |
+| BTND       | To clear the display, press the down D-Pad button (BTND)           |
+
+!!! Before shutting down/reprogramming the board please make sure you properly turn off the OLED display by pressing the CPU_RESET button. When the display is off, LD0 should also be off.
+This is necessary to prevent damaging the OLED display.
 
 For more information on the Nexys Video OLED Demo, including setup instructions, visit its [Demo Page](https://reference.digilentinc.com/reference/programmable-logic/nexys-video/demos/oled) on the Digilent Wiki.
 
