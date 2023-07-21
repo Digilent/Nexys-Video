@@ -22,6 +22,8 @@ This project is a Vivado demo using the Nexys Video's LEDs, pushbuttons and OLED
 !!! Before shutting down/reprogramming the board please make sure you properly turn off the OLED display by pressing the CPU_RESET button. When the display is off, LD0 should also be off.
 This is necessary to prevent damaging the OLED display.
 
+After shutting down the OLED display from the CPU_RESET button, it is possible to open it again from the CPU_RESET button only after 3.5 seconds passed.
+
 For more information on the Nexys Video OLED Demo, including setup instructions, visit its [Demo Page](https://reference.digilentinc.com/reference/programmable-logic/nexys-video/demos/oled) on the Digilent Wiki.
 
 For more information on the Nexys Video, including other demos that may be available, see its [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/nexys-video/start) on the Digilent Wiki.
