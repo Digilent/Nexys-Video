@@ -7,7 +7,7 @@
 This branch contains sources for the Nexys Video HDMI Demo.
 
 This project demonstrates how to use the USB-UART Bridge, HDMI Sink and HDMI Source with a Microblaze processor.
-Vivado is used to build the demo's hardware platform, and Xilinx SDK is used to program the bitstream onto the board and to build and deploy a C application.
+Vivado is used to build the demo's hardware platform, and Vitis is used to program the bitstream onto the board and to build and deploy a C application.
 Video data streams in through the HDMI in port and out through the HDMI out port.
 A UART interface is available to configure what is output through HDMI.
 There are 3 display frame buffers that the user can choose to display or write to. The configuration options are shown in the table below.
@@ -51,7 +51,7 @@ This demo was moved into this repository during 2020.1 updates. Its history prio
 The following are required for use of this demo. For more information on how to get any hardware or software you may be missing, see the Demo Page, linked above.
 
 * Nexys Video
-* Vivado and Vitis Classic installations with Digilent's board files
+* Vivado and Vitis installations with Digilent's board files
 * Serial Terminal
 * MicroUSB Cables for programming and serial communication
 * HDMI source (likely a computer)
